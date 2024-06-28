@@ -23,6 +23,7 @@ python3 -i interactive.py
 
 **Available Functions**:
 optionally include a name to search for a recipe, leaving blank will return all recipes
-- `calculate_amounts(name=None)`: Calculate the amount of fish to max out all recipes
+- `calculate_amounts(name=None)`: Calculate the amount of fish to max out all recipes, name to search for fish
 - `get_recipe(name=None)`: Get the recipe for a specific item
-
+- `reset()`: Reset the data file to the default values
+- `calculate_recipe(name=None)`: Calculate the amount of fish to max out a specific recipe, name for recipe
