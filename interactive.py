@@ -28,14 +28,13 @@ def get_recipe(name=None):
   print("Recipes Found:")
 
   for recipe in out:
-    print()
-    print(f"{recipe['recipe_name']}: {recipe['current_level']}")
+    format_recipe(recipe)
 
-    for fish in recipe['fish']:
-      print(f"  {fish['fish_name']}: {fish['amount']}")
-
-  print()
-    
+def format_recipe(recipe):
+  recipe_string = f"\n{recipe['recipe_name']} (Level {recipe['current_level']})\n"
+  for fish in recipe['fish']:
+    recipe_string += f"{fish['fish_name']}: {fish['amount']}\n"
+  print(recipe_string)
 
 def calculate_all_amounts():
   amounts = {} 
