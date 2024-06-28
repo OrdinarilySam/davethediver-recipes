@@ -1,5 +1,6 @@
 from data import data, save_data
 from util import *
+from collections import Counter
 
 
 def reset():
@@ -23,7 +24,7 @@ def get_recipe(name=None):
 
 
 def calculate_amounts(name=None):
-  amounts = {} 
+  amounts = Counter()
   search_list = []
 
   if name is None:
@@ -32,56 +33,27 @@ def calculate_amounts(name=None):
     search_list = fuzzy_find_recipe(name)
 
   for recipe in search_list:
-    for fish in recipe['fish']:
-      fish_name = fish['fish_name']
-
-      if fish_name not in amounts.keys():
-        amounts[fish_name] = 0
-
-      for level in range(recipe['current_level'] + 1, len(level_cost) - 1):
-        fish_cost = fish['amount']
-
-        match fish_cost:
-          case 1:
-            amounts[fish_name] += level_cost[level]
-
-          case 2:
-            amounts[fish_name] += level_cost[level + 1]
-
-          case 3:
-            amounts[fish_name] += level_cost[level] * 2 + (level % 2) # +1 if upgrading to odd level
-
-          case 5:
-            amounts[fish_name] += level_cost[level] * 3 + (level % 2) # +1 if upgrading to odd level
-
-          case _:
-            print("Invalid fish cost for " + fish_name)
-
-  format_ingredients([{"fish_name": fish, "amount": amounts[fish]} for fish in amounts])
+    amounts += Counter(calculate_cost(recipe))
+  
+  format_ingredients(dict(amounts))
 
 
 def upgrade_recipe():
   ...
 
 
-def format_ingredients(ingredients):
-  done = []
-  still_needed = []
+def calculate_recipe(name=None):
+  search_list = []
 
-  for fish in ingredients:
-    if fish['amount'] == 0:
-      done.append(fish['fish_name'])
-    else:
-      still_needed.append(fish)
-    
-  print("Done:")
-  for fish in done:
-    print(fish)
-  print()
+  if name is None:
+    search_list = data
+  else:
+    search_list = fuzzy_find_recipe(name)
   
-  longest_fish_name = max([len(fish['fish_name']) for fish in still_needed])
+  print("Cost per Recipe:\n")
+  for recipe in search_list:
+    print(f"{recipe['recipe_name']}:")
+    for fish, amount in calculate_cost(recipe).items():
+      print(f"  {fish}: {amount}")
+    print()
 
-  print("\nStill Needed:")
-  for fish in still_needed:
-    print(f"{fish['fish_name']:>{longest_fish_name}}: {str(fish['amount'])}")
-  print()
