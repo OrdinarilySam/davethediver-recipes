@@ -26,15 +26,11 @@ def get_recipe(name=None):
   if name is None:
     name = input("Enter recipe name: ")
 
-  out = []
-
-  for recipe in data:
-    if recipe['recipe_name'].lower().startswith(name.lower()):
-      out.append(recipe)
+  recipes = fuzzy_find_recipe(name)
 
   print("Recipes Found:")
 
-  for recipe in out:
+  for recipe in recipes:
     format_recipe(recipe)
 
 def format_recipe(recipe):
