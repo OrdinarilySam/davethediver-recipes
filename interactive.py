@@ -109,10 +109,8 @@ if __name__ == "__main__":
     print_options()
     choice = int(input("Enter your choice: "))
     result = choice_to_func(choice)
-    if !(result):
-        return
     cont = input("\nContinue? (y/n)")
-    if cont.lower == 'n':
+    if cont.lower == 'n' or if !(result):
       stay = False
 
 
