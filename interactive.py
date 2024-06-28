@@ -1,41 +1,25 @@
+from consts import level_cost
 import json
-data = []
-
-# added extra 0 at start for easier indexing in calculate amounts
-level_cost = [0,0,3,4,6,10,15,22,34,51,76,115]
-
-
-with open('data.json') as f:
-    data = json.load(f)
 
 def reset():
-  if input("Are you sure you want to reset all levels to 1? (y/n) ") != 'y':
+  if input("Are you sure you want to reset all levels to 1? (y/n): ") != 'y':
     return
   for recipe in data:
      recipe['current_level'] = 1
   print("Levels reset to 1")
 
-def get_recipe(name=None):
-  if name is None:
-    name = input("Enter recipe name: ")
-
-  out = []
-
+def get_recipe(name):
   for recipe in data:
-    if recipe['recipe_name'].lower().startswith(name.lower()):
-      out.append(recipe)
-
-  print("Recipes Found:")
-
-  for recipe in out:
-    print()
-    print(f"{recipe['recipe_name']}: {recipe['current_level']}")
-
-    for fish in recipe['fish']:
-      print(f"  {fish['fish_name']}: {fish['amount']}")
-
-  print()
-    
+    if recipe['recipe_name'].lower() == name.lower():
+      format_recipe(recipe)
+      return
+  print("Recipe not found")
+  
+def format_recipe(recipe):
+  recipe_string = f"\n{recipe['recipe_name']} (Level {recipe['current_level']})\n"
+  for fish in recipe['fish']:
+    recipe_string += f"{fish['fish_name']}: {fish['amount']}\n"
+  print(recipe_string)
 
 def calculate_all_amounts():
   amounts = {} 
@@ -64,10 +48,10 @@ def calculate_all_amounts():
             amounts[fish_name] += level_cost[level] * 3 + (level % 2) # +1 if upgrading to odd level
 
           case _:
-            print("Invalid fish cost for " + fish_name)
+            print(f"Invalid fish cost for {fish_name}")
 
   for fish in amounts:
-    print(fish + ": " + str(amounts[fish]))
+    print(f"{fish}: {amounts[fish]}")
 
 def calculate_amount():
   ...
@@ -80,4 +64,53 @@ def find_recipe_by_name():
 
 def upgrade_recipe():
   ...
+
+def print_options():
+    print("                   Options"                    )
+    print("----------------------------------------------")
+    print("1. Reset all levels to 1")
+    print("2. Get recipe by name")
+    print("3. Calculate all amounts")
+    print("4. Calculate amount for a specific recipe")
+    print("5. Find recipe by ingredient")
+    print("6. Find recipe by name")
+    print("7. Upgrade recipe")
+    print("8. Exit\n")
+
+def choice_to_func(choice):
+    if choice == 1:
+      reset()
+    elif choice == 2:
+      name = input("Enter recipe name: ")
+      get_recipe(name)
+    elif choice == 3:
+      calculate_all_amounts()
+    elif choice == 4:
+      calculate_amount()
+    elif choice == 5:
+      find_recipe_by_ingredient()
+    elif choice == 6:
+      find_recipe_by_name()
+    elif choice == 7:
+      upgrade_recipe()
+    elif choice == 8:
+      return False
+    else:
+      print("Invalid choice. Please try again.")
+    return True
+
+if __name__ == "__main__":
+  stay = True
+  data = []
+  with open('data.json') as f:
+      data = json.load(f)
+    
+  while stay:
+    print_options()
+    choice = int(input("Enter your choice: "))
+    result = choice_to_func(choice)
+    cont = input("\nContinue? (y/n)")
+    if cont.lower == 'n' or if !(result):
+      stay = False
+
 
