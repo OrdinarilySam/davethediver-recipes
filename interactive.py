@@ -15,11 +15,27 @@ def reset():
      recipe['current_level'] = 1
   print("Levels reset to 1")
 
-def get_recipe(name):
+def get_recipe(name=None):
+  if name is None:
+    name = input("Enter recipe name: ")
+
+  out = []
+
   for recipe in data:
-    if recipe['name'] == name:
-      print(recipe)
-      return
+    if recipe['recipe_name'].lower().startswith(name.lower()):
+      out.append(recipe)
+
+  print("Recipes Found:")
+
+  for recipe in out:
+    print()
+    print(f"{recipe['recipe_name']}: {recipe['current_level']}")
+
+    for fish in recipe['fish']:
+      print(f"  {fish['fish_name']}: {fish['amount']}")
+
+  print()
+    
 
 def calculate_all_amounts():
   amounts = {} 
