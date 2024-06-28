@@ -8,6 +8,14 @@ level_cost = [0,0,3,4,6,10,15,22,34,51,76,115]
 with open('data.json') as f:
     data = json.load(f)
 
+def fuzzy_find_recipe(search):
+  found = []
+  for recipe in data:
+    if search.lower() in recipe['recipe_name'].lower():
+      found.append(recipe)
+  return found
+
+
 def reset():
   if input("Are you sure you want to reset all levels to 1? (y/n) ") != 'y':
     return
