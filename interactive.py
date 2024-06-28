@@ -38,8 +38,55 @@ def calculate_amounts(name=None):
   format_ingredients(dict(amounts))
 
 
-def upgrade_recipe():
-  ...
+def upgrade_recipe(name=None):
+  if name is None:
+    name = input("Enter recipe name: ").strip()
+
+  recipes = fuzzy_find_recipe(name)
+
+  if len(recipes) == 0:
+    print("No recipes found")
+    return
+
+  if len(recipes) > 1:
+    for index, recipe in enumerate(recipes):
+      print(index + 1, end=": ")
+      print(recipe['recipe_name'])
+
+    print("Which recipe would you like to upgrade?")
+
+    while True:
+      try:
+        choice = int(input(f"Enter choice 1-{len(recipes)}: "))
+        if choice < 1 or choice > len(recipes):
+          raise ValueError
+        break
+
+      except ValueError:
+        print("Invalid choice")
+    
+    recipe = recipes[choice - 1]
+  else:
+    recipe = recipes[0]
+
+  while True:
+    try:
+      inp = input(f"Current level: {recipe['current_level']}\nEnter new level (blank for +1): ")
+      if inp == '':
+        level = recipe['current_level'] + 1
+        break
+      else:
+        level = int(inp)
+        if level < 1 or level > 10:
+          raise ValueError
+        break
+
+    except ValueError:
+      print("Invalid level")
+  
+  recipe['current_level'] = level
+  save_data()
+  print(f"Level for {recipe['recipe_name']} set to {level}")
 
 
 def calculate_recipe(name=None):
