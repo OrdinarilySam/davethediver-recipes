@@ -1,8 +1,11 @@
 # Dave the Diver Recipes
-Use this repo to figure out how many fish you need to max out your recipes in Dave the Diver.
+<h3> Use this repo to figure out how many fish you need to max out your recipes in Dave the Diver. </h3>
 
-**Requirements**:
-- Python 3.10+
+<h4>Requirements: </h4>
+<ul>
+  <li>Python 3.10+</li>
+</ul>
+<hr>
 
 **Usage**:
 1. Clone the repo
@@ -20,6 +23,7 @@ cp data.json.template data.json
 ```
 python3 -i interactive.py
 ```
+<hr>
 
 **Available Functions**:
 optionally include a name to search for a recipe, leaving blank will return all recipes
