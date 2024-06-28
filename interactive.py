@@ -39,10 +39,16 @@ def format_recipe(recipe):
     recipe_string += f"{fish['fish_name']}: {fish['amount']}\n"
   print(recipe_string)
 
-def calculate_all_amounts():
+def calculate_amounts(name=None):
   amounts = {} 
+  search_list = []
 
-  for recipe in data:
+  if name is None:
+    search_list = data
+  else:
+    search_list = fuzzy_find_recipe(name)
+
+  for recipe in search_list:
     for fish in recipe['fish']:
       fish_name = fish['fish_name']
 
@@ -68,11 +74,9 @@ def calculate_all_amounts():
           case _:
             print("Invalid fish cost for " + fish_name)
 
-  for fish in amounts:
-    print(fish + ": " + str(amounts[fish]))
-
-def calculate_amount():
-  ...
+  # for fish in amounts:
+    # print(fish + ": " + str(amounts[fish]))
+  format_ingredients([{"fish_name": fish, "amount": amounts[fish]} for fish in amounts])
 
 def find_recipe_by_ingredient():
   ...
@@ -83,3 +87,27 @@ def find_recipe_by_name():
 def upgrade_recipe():
   ...
 
+def format_ingredients(ingredients):
+  done = []
+  still_needed = []
+
+  for fish in ingredients:
+    if fish['amount'] == 0:
+      done.append(fish['fish_name'])
+    else:
+      still_needed.append(fish)
+    
+  print("Done:")
+  for fish in done:
+    print(fish)
+  print()
+  
+  longest_fish_name = max([len(fish['fish_name']) for fish in still_needed])
+
+  print("\nStill Needed:")
+  for fish in still_needed:
+    print(f"{fish['fish_name']:>{longest_fish_name}}: {str(fish['amount'])}")
+  print()
+
+
+    
