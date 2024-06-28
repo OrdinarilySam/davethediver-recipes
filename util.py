@@ -18,3 +18,25 @@ def fuzzy_find_recipe(search):
     if search.lower() in recipe['recipe_name'].lower():
       found.append(recipe)
   return found
+
+def format_ingredients(ingredients):
+  done = []
+  still_needed = []
+
+  for fish in ingredients:
+    if fish['amount'] == 0:
+      done.append(fish['fish_name'])
+    else:
+      still_needed.append(fish)
+    
+  print("Done:")
+  for fish in done:
+    print(fish)
+  print()
+
+  longest_fish_name = max([len(fish['fish_name']) for fish in still_needed])
+
+  print("\nStill Needed:")
+  for fish in still_needed:
+    print(f"{fish['fish_name']:>{longest_fish_name}}: {str(fish['amount'])}")
+  print()
