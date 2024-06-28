@@ -40,3 +40,31 @@ def format_ingredients(ingredients):
   for fish in still_needed:
     print(f"{fish['fish_name']:>{longest_fish_name}}: {str(fish['amount'])}")
   print()
+
+def calculate_cost(recipe):
+  costs = {}
+  for fish in recipe['fish']:
+    fish_name = fish['fish_name']
+    fish_cost = fish['amount']
+
+    costs[fish_name] = 0
+
+    for level in range(recipe['current_level'] + 1, len(level_cost) - 1):
+      fish_cost = fish['amount']
+
+      match fish_cost:
+        case 1:
+          costs[fish_name] += level_cost[level]
+
+        case 2:
+          costs[fish_name] += level_cost[level + 1]
+
+        case 3:
+          costs[fish_name] += level_cost[level] * 2 + (level % 2) # +1 if upgrading to odd level
+
+        case 5:
+          costs[fish_name] += level_cost[level] * 3 + (level % 2) # +1 if upgrading to odd level
+
+        case _:
+          print("Invalid fish cost for " + fish_name)
+  return costs
