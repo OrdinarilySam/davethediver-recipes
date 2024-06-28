@@ -1,4 +1,9 @@
 # Dave the Diver Recipes
+<div>
+<img src = "https://github.com/OrdinarilySam/davethediver-recipes/assets/100721569/b5446e95-39b1-46b8-9640-3c1e19f02df9"
+  width=300
+  height=300>
+</div>
 <h3> Use this repo to figure out how many fish you need to max out your recipes in Dave the Diver. </h3>
 
 <h4>Requirements: </h4>
