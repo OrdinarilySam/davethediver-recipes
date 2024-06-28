@@ -1,0 +1,4028 @@
+[
+  {
+      "recipe_name": "Agar Tokoroten",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Agar",
+              "amount": 3
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Alaska Pollock Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Alaska Pollock",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Allenypterus Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Allenypterus",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "American Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "American Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Antarctic Octopus Carpaccio",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Antarctic Octopus",
+              "amount": 3
+          },
+          {
+              "fish_name": "Onion",
+              "amount": 2
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Antarctic Octopus Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Antarctic Octopus",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Arctic Cod Risotto",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Arctic Cod",
+              "amount": 3
+          },
+          {
+              "fish_name": "Cherry Tomato",
+              "amount": 2
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Garlic",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Arctic Cod Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Arctic Cod",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Arctic Telescope Fish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Arctic Telescope Fish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Atlantic Anglerfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Atlantic Anglerfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Atlantic Bonito Curry",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Atlantic Bonito",
+              "amount": 5
+          },
+          {
+              "fish_name": "Carrot",
+              "amount": 2
+          },
+          {
+              "fish_name": "Curry Block",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Atlantic Bonito Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Atlantic Bonito",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Atlantic Mackerel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Atlantic Mackerel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Aurora Jellyfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Aurora Jellyfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "B&W Snapper Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Black and White Snapper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Barbed Eel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Barbed Eel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Barrel Jellyfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Barrel Jellyfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Barreleye Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Barreleye",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Batfish Ricebowl",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Longfin Batfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Orbicular Batfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Big-Eyed Scad and Soybean Paste Roast",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bigeye Scad",
+              "amount": 5
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          },
+          {
+              "fish_name": "Sesame Seed",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bigeye Scad Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bigeye Scad",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bigeye Trevally Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bigeye Trevally",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Black Vinegar Braised Parrotfish",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Mediterranean Parrotfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Carrot",
+              "amount": 2
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blackfin Barracuda Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blackfin Barracuda",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blackspot Seabream Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blackspot Seabream",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blacktip Reefshark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blacktip Shark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blanched Lusca Tentacle",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Lusca Tentacle",
+              "amount": 1
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blobfish Spring Roll",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blobfish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          },
+          {
+              "fish_name": "Mayonnaise",
+              "amount": 1
+          },
+          {
+              "fish_name": "Sesame Seed",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blobfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blobfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blood-belly Comb Jelly Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blood-belly Comb Jellyfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bloodskin Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bloodskin Shark",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blue Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blue Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Blue Tang Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blue Tang",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bluefin Tuna Akami Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluefin Tuna Akami",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bluefin Tuna Chutoro Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluefin Tuna Chutoro",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bluefin Tuna Ootoro Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluefin Tuna Ootoro",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bluefin Tuna Rice Bowl",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluefin Tuna Akami",
+              "amount": 3
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 3
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Sesame Seed",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bluehead Tilefish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluehead Tilefish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bluespotted Stargazer Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluespotted Stargazer",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Boiled Asian Sheepshead Wrasse & Truffle",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sheepshead Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Kelp",
+              "amount": 3
+          },
+          {
+              "fish_name": "Truffle",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Boiled Mantis Shrimp with Soy Paste",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Mantis Shrimp Meat",
+              "amount": 1
+          },
+          {
+              "fish_name": "Eggplant",
+              "amount": 1
+          },
+          {
+              "fish_name": "Agar",
+              "amount": 1
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Boiled Porbeagle Shark",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Porbeagle Shark Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          },
+          {
+              "fish_name": "Black Pepper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Boiled Sailfish and Seaweed",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sailfish Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Southern Bull Kelp",
+              "amount": 2
+          },
+          {
+              "fish_name": "Kajime",
+              "amount": 2
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Boiled Yellowback Fusilier",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yellowback Fusilier",
+              "amount": 3
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Boiled and Deep-Fried White Shrimp",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Whiteleg Shrimp",
+              "amount": 5
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Mayonnaise",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bony Wreckfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bony Wreckfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Box Jellyfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Box Jellyfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Bursting Anglerfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bursting Anglerfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "California Spiny Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "California Spiny Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Capelin Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Capelin",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Cardinalfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cardinal Fish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Cerebral Crab Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cerebral Crab",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Chambered Nautilus Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Chambered Nautilus",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Clearfin Lionfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Clearfin Lionfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Clione Queen Soup",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Clione Queen Tentacle",
+              "amount": 1
+          },
+          {
+              "fish_name": "Kelp",
+              "amount": 1
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Clione Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Clione",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Clown Frogfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Clown Frogfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Clownfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Clownfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Comb Jelly Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Comb Jelly",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Comber Sandwich",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Comber",
+              "amount": 5
+          },
+          {
+              "fish_name": "Painted Comber",
+              "amount": 5
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 2
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Comber Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Comber",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Concertina Barracuda Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Concertina Barracuda",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Cooked Whiteleg Shrimp Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Whiteleg Shrimp",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Cookiecutter Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cookiecutter Shark",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Copper shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Copper Shark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Coral Trout Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Coral Trout",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Cortex Decorator Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cortex Decorator",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Crimson Fish Roll",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Clown Frogfish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Red Bream",
+              "amount": 3
+          },
+          {
+              "fish_name": "Rhinochimaeridae",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Crystal Lobster Roll",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Crystal Lobster",
+              "amount": 2
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Bladderwrack",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Crystal Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Crystal Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Cuttlefish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cuttlefish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Deep Fish Tempura",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cookiecutter Shark",
+              "amount": 1
+          },
+          {
+              "fish_name": "Vampire Squid",
+              "amount": 1
+          },
+          {
+              "fish_name": "Barreleye",
+              "amount": 1
+          },
+          {
+              "fish_name": "Kelp",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Deep Sea Kaiju Ramen",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Comb Jelly",
+              "amount": 5
+          },
+          {
+              "fish_name": "Seaweed",
+              "amount": 3
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Deep-Fried Eggplant Shrimp Meatballs",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Black Tiger Shrimp",
+              "amount": 3
+          },
+          {
+              "fish_name": "Whiteleg Shrimp",
+              "amount": 3
+          },
+          {
+              "fish_name": "Eggplant",
+              "amount": 3
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Deep-Fried Red Lionfish",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Red Lionfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          },
+          {
+              "fish_name": "Black Pepper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Deep-Fried Vegetables",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cucumber",
+              "amount": 1
+          },
+          {
+              "fish_name": "Onion",
+              "amount": 1
+          },
+          {
+              "fish_name": "Carrot",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Devil Scorpionfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Devil Scorpionfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Dollocaris Ingens Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Dollocaris Ingens",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Drepanaspis Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Drepanaspis Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Dried Stingray",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Starry Skate",
+              "amount": 3
+          },
+          {
+              "fish_name": "Stingray Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Marbled Electric Ray Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Dumbo Octopus Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Dumbo Octopus",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Dumbo Takoyaki",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Dumbo Octopus",
+              "amount": 3
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          },
+          {
+              "fish_name": "Mayonnaise",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Dunkleosteus Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Dunkleosteus Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Dusky Grouper Steak",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Dusky Grouper",
+              "amount": 5
+          },
+          {
+              "fish_name": "Cherry Tomato",
+              "amount": 3
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Dusky Grouper Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Dusky Grouper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Eastern Rock Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Eastern Rock Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Ebirah Chasing Sashimi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "California Spiny Lobster",
+              "amount": 2
+          },
+          {
+              "fish_name": "Barreleye",
+              "amount": 3
+          },
+          {
+              "fish_name": "Sea Grape",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Emperor Angelfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Emperor Angelfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Entangled Crab Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Entangled Crab",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Enthralled Stonefish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Enthralled Stonefish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "European Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "European Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Falcatus Soybean Paste Soup",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Falcatus",
+              "amount": 3
+          },
+          {
+              "fish_name": "Seaweed",
+              "amount": 3
+          },
+          {
+              "fish_name": "Buckbean",
+              "amount": 3
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Falcatus Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Falcatus",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fan Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Fan Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fanged Cod Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Fanged Cod",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fangtooth Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Fangtooth",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Flame Angelfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Flame Angelfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fried Egg Jellyfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Fried Egg Jellyfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fried Habanero Fangtooth",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Fangtooth",
+              "amount": 2
+          },
+          {
+              "fish_name": "Habanero",
+              "amount": 2
+          },
+          {
+              "fish_name": "Bladderwrack",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fried Onion Cuttlefish",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cuttlefish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Onion",
+              "amount": 3
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fried Rice with Sally Lightfoot Crab",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sally Lightfoot Crab",
+              "amount": 2
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Grade A Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Black Pepper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fried Seahorses",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Long-Snouted Seahorse",
+              "amount": 3
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Fried Tomato and Snailfish",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Gelatinous Snailfish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Salmon Snailfish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Bean",
+              "amount": 2
+          },
+          {
+              "fish_name": "Cherry Tomato",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Frilled Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Frilled Shark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Gazing Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Gazing Shark",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Gelatinous Snailfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Gelatinous Snailfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Gelatinous Stonefish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Gelatinous Stonefish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Giant Trevally Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Giant Trevally Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Gnashing Perch Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Gnashing Perch",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Goblin Shark Belly Roast",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Goblin Shark's Fatty Meat",
+              "amount": 1
+          },
+          {
+              "fish_name": "Sea Grape",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Godzilla vs. Ebirah Curry",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "European Lobster",
+              "amount": 2
+          },
+          {
+              "fish_name": "Moray Eel",
+              "amount": 2
+          },
+          {
+              "fish_name": "Turmeric",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Golden King Crab Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Golden King Crab",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Great Barracuda Canape",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Great Barracuda",
+              "amount": 5
+          },
+          {
+              "fish_name": "Cherry Tomato",
+              "amount": 1
+          },
+          {
+              "fish_name": "Onion",
+              "amount": 1
+          },
+          {
+              "fish_name": "Mayonnaise",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Great Barracuda Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Great Barracuda",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Great Spider Crab Curry",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Spider Crab",
+              "amount": 1
+          },
+          {
+              "fish_name": "Grade A Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Curry Block",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Great Spider Crab and Cucumber Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Spider Crab",
+              "amount": 1
+          },
+          {
+              "fish_name": "Cucumber",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Green Humphead Parrotfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Green Humphead Parrotfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Greenland Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Greenland Shark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Grey Triggerfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Grey Triggerfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Grilled Antarctic Octopus & Truffle",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Antarctic Octopus",
+              "amount": 3
+          },
+          {
+              "fish_name": "Kajime",
+              "amount": 3
+          },
+          {
+              "fish_name": "Truffle",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Grilled Eel with Habanero",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Snub-nosed Spiny Eel",
+              "amount": 2
+          },
+          {
+              "fish_name": "Habanero",
+              "amount": 2
+          },
+          {
+              "fish_name": "Kajime",
+              "amount": 1
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Grotesque Mackerel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Grotesque Mackerel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Haddock Acqua Pazza",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Haddock",
+              "amount": 3
+          },
+          {
+              "fish_name": "Cherry Tomato",
+              "amount": 2
+          },
+          {
+              "fish_name": "Carrot",
+              "amount": 2
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Haddock Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Haddock",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Harlequin Hind Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Harlequin Hind",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Hawaiian Poke",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yellowfin Tuna Akami",
+              "amount": 3
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 3
+          },
+          {
+              "fish_name": "Mayonnaise",
+              "amount": 1
+          },
+          {
+              "fish_name": "Sesame Seed",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Horsehair Crab Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Horsehair Crab",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Host Eel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Host Eel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Hot Pepper Tuna",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluefin Tuna Chutoro",
+              "amount": 3
+          },
+          {
+              "fish_name": "Habanero",
+              "amount": 2
+          },
+          {
+              "fish_name": "Sea Grape",
+              "amount": 2
+          },
+          {
+              "fish_name": "Sesame Seed",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Humboldt Ink Pasta",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Humboldt Squid Meat",
+              "amount": 1
+          },
+          {
+              "fish_name": "White Shrimp",
+              "amount": 3
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Garlic",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Humboldt Squid Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Humboldt Squid Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Humphead Parrotfish Curry",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Green Humphead Parrotfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Onion",
+              "amount": 2
+          },
+          {
+              "fish_name": "Turmeric",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Hyalonema Tuna Sashimi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluefin Tuna Ootoro",
+              "amount": 3
+          },
+          {
+              "fish_name": "Yellowfin Tuna Ootoro",
+              "amount": 3
+          },
+          {
+              "fish_name": "Hyalonema",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Ice Fish Curry",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Ice Fish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Bean",
+              "amount": 2
+          },
+          {
+              "fish_name": "Curry Block",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Ice Fish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Ice Fish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Imperious Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Imperious Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Lagoon Triggerfish Sushi",
+      "current_level": 1,
+      "fish": []
+  },
+  {
+      "recipe_name": "Latok Omelet",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Grade A Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Sea Grape",
+              "amount": 2
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Lobster Platter",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "American Lobster",
+              "amount": 2
+          },
+          {
+              "fish_name": "Tropical Rock Lobster",
+              "amount": 2
+          },
+          {
+              "fish_name": "Tokummia Katalepsis",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Longfin Batfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Longfin Batfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Longnose Sawshark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Longnose Sawshark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Longspine Squirrelfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Longspine Squirrelfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Lumpfish sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Lumpfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Lusca Neck Tadaki",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Lusca Neck Meat",
+              "amount": 1
+          },
+          {
+              "fish_name": "Mayonnaise",
+              "amount": 1
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          },
+          {
+              "fish_name": "Sesame Seed",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Mackerel Scad Hotdog",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Mackerel Scad",
+              "amount": 5
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          },
+          {
+              "fish_name": "Mayonnaise",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Mackerel Scad Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Mackerel Scad",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Malignant Pincer Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Malignant Pincer",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Many Eyed Mackerel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Many Eyed Mackerel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Marbled Electric Ray Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Marbled Electric Ray Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Marlin Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Marlin Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Marlin and Soybean Paste Roast",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Marlin Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Garlic",
+              "amount": 2
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Mediterranean Parrotfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Mediterranean Parrotfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Megalograptus Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Megalograptus",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Megamouth Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Megamouth Shark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Mianbao Xia",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Black Tiger Shrimp",
+              "amount": 5
+          },
+          {
+              "fish_name": "Whiteleg Shrimp",
+              "amount": 5
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Moonlight Bladderwrack Roll",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Longspine Squirrelfish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Clearfin Lionfish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Blackfin Barracuda",
+              "amount": 3
+          },
+          {
+              "fish_name": "Bladderwrack",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Moray Eel Curry",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Moray Eel",
+              "amount": 2
+          },
+          {
+              "fish_name": "Turmeric",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Moray Eel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Moray Eel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Narrow-barred Spanish Mackerel Arancini",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Narrow-Barred Spanish Mackerel",
+              "amount": 5
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 2
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Garlic",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Narrow-barred Spanish mackerel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Narrow-Barred Spanish Mackerel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Narwhal Miso Soup",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Narwhal Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Carrot",
+              "amount": 2
+          },
+          {
+              "fish_name": "Buckbean",
+              "amount": 2
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Narwhal Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Narwhal Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Nasu Dengaku",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Eggplant",
+              "amount": 1
+          },
+          {
+              "fish_name": "Garlic",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Norimaki",
+      "current_level": 1,
+      "fish": []
+  },
+  {
+      "recipe_name": "Norway Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Norway Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Orbicular Batfish Fry",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Orbicular Batfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Ornate Wrasse Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Ornate Wrasse",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Pacific Fanfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Pacific Fanfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Painted Comber Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Painted Comber",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Parhelion Jellyfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Parhelion Jellyfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Peacock Squid Ripieni",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Peacock Squid",
+              "amount": 3
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 2
+          },
+          {
+              "fish_name": "Garlic",
+              "amount": 2
+          },
+          {
+              "fish_name": "Black Pepper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Peacock Squid Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Peacock Squid",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Pelican Eel Jelly",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Pelican Eel",
+              "amount": 3
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          },
+          {
+              "fish_name": "Agar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Pelican Eel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Pelican Eel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Perished Loosejaw Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Perished Loosejaw",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Phantom Jellyfish Jelly",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Phantom Jellyfish Meat",
+              "amount": 1
+          },
+          {
+              "fish_name": "Agar",
+              "amount": 3
+          },
+          {
+              "fish_name": "Buckbean",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Pickled Vegetables",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cucumber",
+              "amount": 1
+          },
+          {
+              "fish_name": "Eggplant",
+              "amount": 1
+          },
+          {
+              "fish_name": "Carrot",
+              "amount": 1
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Pikaia Ramen",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Pikaia",
+              "amount": 3
+          },
+          {
+              "fish_name": "Grade A Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          },
+          {
+              "fish_name": "Southern Bull Kelp",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Pikaia Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Pikaia",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Plotosid Pie",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Striped Catfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          },
+          {
+              "fish_name": "Onion",
+              "amount": 2
+          },
+          {
+              "fish_name": "Bean",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Polar Eelpout Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Polar Eelpout",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Porbeagle Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Porbeagle Shark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Pufferfish Dumpling Soup",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Longspine Porcupinefish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Starry Puffer",
+              "amount": 3
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Bladderwrack",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Purple Sea Urchin Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Purple Sea Urchin",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Pyramid Butterflyfish Sushi",
+      "current_level": 1,
+      "fish": []
+  },
+  {
+      "recipe_name": "Qingmendous Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Qingmendous",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Radiant Squid Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Radiant Squid",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Rainbow Wrasse Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Rainbow Wrasse",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Raw Black Tiger Shrimp Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Black Tiger Shrimp",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Red Lionfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Red Lionfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Red bream Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Red Bream",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Red-banded Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Red-banded Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Redtoothed Triggerfish Sushi",
+      "current_level": 1,
+      "fish": []
+  },
+  {
+      "recipe_name": "Rhinochimaeridae Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Rhinochimaeridae Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Rice with Great Spider Crab Meat",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Spider Crab",
+              "amount": 1
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Bean",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Rice with Purple Sea Urchin Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Purple Sea Urchin",
+              "amount": 2
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Sesame Seed",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Rice with White Shrimp Meat",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "White Shrimp",
+              "amount": 3
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 2
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 2
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Roasted Capelin",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Capelin",
+              "amount": 5
+          },
+          {
+              "fish_name": "Black Coral",
+              "amount": 1
+          },
+          {
+              "fish_name": "Turmeric",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Roasted Helicoprion Tail",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Helicoprion Tail",
+              "amount": 1
+          },
+          {
+              "fish_name": "Seaweed",
+              "amount": 3
+          },
+          {
+              "fish_name": "Southern Bull Kelp",
+              "amount": 3
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Roasted Tropical Fish and Garlic",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Clownfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Pyramid Butterflyfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Blue Tang",
+              "amount": 5
+          },
+          {
+              "fish_name": "Garlic",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sailfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sailfish Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Salema Porgy Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Salema Porgy",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sallow Sailfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sallow Sailfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sally Lightfoot Crab Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sally Lightfoot Crab",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Salmon Snailfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Salmon Snailfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Salt-grilled Redtoothed Triggerfish",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Redtoothed Triggerfish",
+              "amount": 2
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Savage Barracuda Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Savage Barracuda",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Scouring Bass Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Scouring Bass",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sea Goldie Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sea Goldie",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sea Toad and Cucumber Gunkan Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sea Toad",
+              "amount": 1
+          },
+          {
+              "fish_name": "Cucumber",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sea toad Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sea Toad",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seadragon Onigiri",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Seadragon",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seagrapes Jellyfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sea Grape",
+              "amount": 1
+          },
+          {
+              "fish_name": "White Spotted Jellyfish",
+              "amount": 1
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seagrapes Special Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sea Grape",
+              "amount": 1
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seahorse Salad",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Long-Snouted Seahorse",
+              "amount": 3
+          },
+          {
+              "fish_name": "Cherry Tomato",
+              "amount": 2
+          },
+          {
+              "fish_name": "Sea Grape",
+              "amount": 2
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seahorse Skewers",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Long-Snouted Seahorse",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seahorse Udon",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Long-Snouted Seahorse",
+              "amount": 3
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          },
+          {
+              "fish_name": "Miso",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seasoned Jellyfish",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Barrel Jellyfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Fried Egg Jellyfish",
+              "amount": 5
+          },
+          {
+              "fish_name": "Garlic",
+              "amount": 2
+          },
+          {
+              "fish_name": "Black Coral",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seasoned Kajime",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Kajime",
+              "amount": 2
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seasoned Long-spine Porcupinefish Skin",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Longspine Porcupinefish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Kelp",
+              "amount": 1
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seasoned Waptia Fieldensis",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Waptia Fieldensis",
+              "amount": 3
+          },
+          {
+              "fish_name": "Cucumber",
+              "amount": 2
+          },
+          {
+              "fish_name": "Black Coral",
+              "amount": 3
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seaweed Rolled Omelet",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Grade A Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Seaweed",
+              "amount": 3
+          },
+          {
+              "fish_name": "Kelp",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Seizing Snailfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Seizing Snailfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Shark Karaage",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blacktip Shark Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Copper Shark Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Shattered Wreckfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Shattered Wreckfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sheepshead Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sheepshead Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Shortfin Mako Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Mako Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Skewered Cucumber",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Cucumber",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Smallspotted Dart Kajime Soup",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Small Spotted Dart",
+              "amount": 3
+          },
+          {
+              "fish_name": "Kajime",
+              "amount": 1
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Smallspotted Dart Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Small Spotted Dart",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Smoked Atlantic Mackerel Scramble",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Atlantic Mackerel",
+              "amount": 5
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 2
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Smooth Hammerhead Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Hammerhead Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Snow Crab Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Snow Crab",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Snub-nosed Spiny Eel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Snub-nosed Spiny Eel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Soy Sauce Marinated Crab",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Golden King Crab",
+              "amount": 2
+          },
+          {
+              "fish_name": "Snow Crab",
+              "amount": 2
+          },
+          {
+              "fish_name": "Horsehair Crab",
+              "amount": 2
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Spear Squid Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Spear Squid",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Special Fried Shrimp Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Black Tiger Shrimp",
+              "amount": 2
+          },
+          {
+              "fish_name": "Whiteleg Shrimp",
+              "amount": 2
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Spider Crab Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Spider Crab",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Splintered Crab Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Splintered Crab",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sprouting Eel Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sprouting Eel",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Starry Skate Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Starry Skate",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Steamed Eastern Rock Lobster & Egg",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Eastern Rock Lobster",
+              "amount": 2
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 2
+          },
+          {
+              "fish_name": "Kelp",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Steamed Hyalonema Angler Fish",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Atlantic Anglerfish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Hyalonema",
+              "amount": 2
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Steamed Kronosaurus Tongue",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Kronosaurus Tongue",
+              "amount": 1
+          },
+          {
+              "fish_name": "Seaweed",
+              "amount": 3
+          },
+          {
+              "fish_name": "Agar",
+              "amount": 3
+          },
+          {
+              "fish_name": "Southern Bull Kelp",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Steamed Wolf Eel",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Wolf Eel Tail Meat",
+              "amount": 1
+          },
+          {
+              "fish_name": "Agar",
+              "amount": 1
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Stellate Puffer Nicogori",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Starry Puffer",
+              "amount": 3
+          },
+          {
+              "fish_name": "Agar",
+              "amount": 1
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Stellate Puffer Special Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Starry Puffer",
+              "amount": 1
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Stingray Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Stingray Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Stir-Fried Hermit Crab and Seaweed",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Truck Hermit Crab Legs",
+              "amount": 1
+          },
+          {
+              "fish_name": "Kajime",
+              "amount": 1
+          },
+          {
+              "fish_name": "Seaweed",
+              "amount": 1
+          },
+          {
+              "fish_name": "Black Vinegar",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Stir-fried Habanero Lobster",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Norway Lobster",
+              "amount": 2
+          },
+          {
+              "fish_name": "Habanero",
+              "amount": 2
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Striped Catfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Striped Catfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Striped Red Mullet Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Striped Red Mullet",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Striped Red Mullet Tangle Roll",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Striped Red Mullet",
+              "amount": 3
+          },
+          {
+              "fish_name": "Kelp",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Sweet and Sour Stargazer",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Bluespotted Stargazer",
+              "amount": 1
+          },
+          {
+              "fish_name": "Wheat",
+              "amount": 1
+          },
+          {
+              "fish_name": "Egg",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Three-Colored Squid Roast",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Peacock Squid",
+              "amount": 3
+          },
+          {
+              "fish_name": "Vampire Squid",
+              "amount": 3
+          },
+          {
+              "fish_name": "Cuttlefish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Three-Headed Cod Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Three-Headed Cod",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Threetooth Puffer Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Threetooth Puffer",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Thresher Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Thresher Shark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Tiger shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Tiger Shark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Titan Triggerfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Titan Triggerfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Tokummia Katalepsi Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Tokummia Katalepsis",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Tomato Egg Soup",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Grade A Egg",
+              "amount": 2
+          },
+          {
+              "fish_name": "Cherry Tomato",
+              "amount": 2
+          },
+          {
+              "fish_name": "Black Pepper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Translucent Sturgeon Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Translucent Sturgeon",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Trevally Nanbanzuke",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "White Trevally",
+              "amount": 5
+          },
+          {
+              "fish_name": "Onion",
+              "amount": 3
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Trevally Sandwich",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Giant Trevally Meat",
+              "amount": 5
+          },
+          {
+              "fish_name": "Bigeye Trevally",
+              "amount": 5
+          },
+          {
+              "fish_name": "Cucumber",
+              "amount": 2
+          }
+      ]
+  },
+  {
+      "recipe_name": "Tropical Fish Sushi Set",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Titan Triggerfish",
+              "amount": 3
+          },
+          {
+              "fish_name": "Harlequin Hind",
+              "amount": 3
+          },
+          {
+              "fish_name": "Coral Trout",
+              "amount": 3
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "Tropical Rock Lobster Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Tropical Rock Lobster",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Trout Sea Grapes Ricebowl",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Coral Trout",
+              "amount": 3
+          },
+          {
+              "fish_name": "Sea Grape",
+              "amount": 1
+          },
+          {
+              "fish_name": "Rice",
+              "amount": 1
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Truffle Blue Lobster Tail Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Blue Lobster",
+              "amount": 2
+          },
+          {
+              "fish_name": "Truffle",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Truffle Sailfish Tartare",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Sailfish Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Purple Sea Urchin",
+              "amount": 3
+          },
+          {
+              "fish_name": "Truffle",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Truffle Shark Sandwich",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Frilled Shark Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Megamouth Shark Meat",
+              "amount": 3
+          },
+          {
+              "fish_name": "Truffle",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Tusked Grouper Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Tusked Grouper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Vampire Squid Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Vampire Squid",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Vegetable Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Rice",
+              "amount": 1
+          },
+          {
+              "fish_name": "Carrot",
+              "amount": 1
+          },
+          {
+              "fish_name": "Eggplant",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Voltaic Grouper Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Voltaic Grouper",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Waptia Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Waptia Fieldensis",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "White Shark Omelet",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Klaus's Fin",
+              "amount": 1
+          },
+          {
+              "fish_name": "Grade A Egg",
+              "amount": 3
+          }
+      ]
+  },
+  {
+      "recipe_name": "White Shrimp Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "White Shrimp",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "White Spotted Jellyfish Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "White Spotted Jellyfish",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "White Trevally Kombu Ochazuke",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "White Trevally",
+              "amount": 3
+          },
+          {
+              "fish_name": "Kelp",
+              "amount": 1
+          },
+          {
+              "fish_name": "Soy Sauce",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "White Trevally Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "White Trevally",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Whitetip Reefshark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Whitetip Reefshark Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Whole-Roasted Shark Head",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Whitetip Reefshark Head",
+              "amount": 1
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Withered Ray Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Withered Ray",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Wrasse Curry",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Rainbow Wrasse",
+              "amount": 5
+          },
+          {
+              "fish_name": "Ornate Wrasse",
+              "amount": 5
+          },
+          {
+              "fish_name": "Bean",
+              "amount": 1
+          },
+          {
+              "fish_name": "Curry Block",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Xenacanthus Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Xenacanthus Meat",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Yawie Steamed Meat",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yawie's Inner Flesh",
+              "amount": 1
+          },
+          {
+              "fish_name": "Salt",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Yellow Tang Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yellow Tang",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Yellowback Fusilier Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yellowback Fusilier",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Yellowfin Tuna Akami Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yellowfin Tuna Akami",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Yellowfin Tuna Chutoro Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yellowfin Tuna Chutoro",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Yellowfin Tuna Ootoro Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yellowfin Tuna Ootoro",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Yellowfin Tuna Steak",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Yellowfin Tuna Chutoro",
+              "amount": 3
+          },
+          {
+              "fish_name": "Cherry Tomato",
+              "amount": 3
+          },
+          {
+              "fish_name": "Olive Oil",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Young Anomalocaris Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Anomalocaris",
+              "amount": 1
+          }
+      ]
+  },
+  {
+      "recipe_name": "Zebra Shark Sushi",
+      "current_level": 1,
+      "fish": [
+          {
+              "fish_name": "Zebra Shark Meat",
+              "amount": 1
+          }
+      ]
+  }
+]
