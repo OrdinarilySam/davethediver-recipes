@@ -4,9 +4,8 @@ data = []
 # added extra 0 at start for easier indexing in calculate amounts
 level_cost = [0,0,3,4,6,10,15,22,34,51,76,115]
 
-
-with open('data.json') as f:
-    data = json.load(f)
+with open('data.json') as file:
+    data = json.load(file)
 
 def fuzzy_find_recipe(search):
   found = []
