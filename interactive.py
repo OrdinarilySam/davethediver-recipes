@@ -71,7 +71,8 @@ def upgrade_recipe(name=None):
 
   while True:
     try:
-      inp = input(f"Current level: {recipe['current_level']}\nEnter new level (blank for +1): ")
+      print(f"\nRecipe: {recipe['recipe_name']} (Level: {recipe['current_level']})")
+      inp = input("Enter new level (blank for +1): ")
       if inp == '':
         level = recipe['current_level'] + 1
         break
@@ -86,12 +87,16 @@ def upgrade_recipe(name=None):
   
   recipe['current_level'] = level
   save_data()
-  print(f"Level for {recipe['recipe_name']} set to {level}")
+  print(f"Level set to {level}")
 
 
 def continuous_upgrade():
-  while True:
-    upgrade_recipe()
+  try:
+    while True:
+      upgrade_recipe()
+      print()
+  except (EOFError, KeyboardInterrupt):
+    print("\nExiting")
 
 
 def calculate_recipe(name=None):
