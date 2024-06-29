@@ -17,5 +17,5 @@ with open('json/ingredients.json') as file:
   ingredients = json.load(file)
 
 def save_data():
-  with open('data.json', 'w') as file:
+  with open('json/data.json', 'w') as file:
     json.dump(data, file, indent=2)
