@@ -30,12 +30,19 @@ def calculate_amounts(name=None, category=None):
   if name is None:
     search_list = data
   else:
-    search_list = fuzzy_find_recipe(name)
+    search_list = fuzzy_find_ingredients(name)
+    if len(search_list) == 0:
+      print("No ingredients found")
+      return
 
-  for recipe in search_list:
-    amounts += Counter(calculate_cost(recipe))
-  
+  for recipe in data:
+    return_val = Counter(calculate_cost(recipe))
+    all_keys = set(amounts.keys()).union(set(return_val.keys()))
+
+    amounts = Counter({key: return_val[key] + amounts[key] for key in all_keys if key in search_list})
+
   amounts = sorted(amounts.items(), key=lambda x: x[1], reverse=True)
+    
 
   if category is not None:
     ings = set([fish for cat, fish_list in ingredients.items() if category in cat for fish in fish_list])

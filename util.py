@@ -1,4 +1,4 @@
-from data_module.data import data, maxed_list, save_data
+from data_module.data import data, maxed_list, save_data, ingredients
 
 
 # added extra 0 at start for easier indexing in calculate amounts
@@ -10,6 +10,18 @@ def format_recipe(recipe):
   for fish in recipe['fish']:
     recipe_string += f"{fish['fish_name']}: {fish['amount']}\n"
   print(recipe_string)
+
+
+def fuzzy_find_ingredients(search):
+  all_ingredients = set(
+    [fish for category in ingredients for fish in ingredients[category]]
+  )
+  found = []
+
+  for ingredient in all_ingredients:
+    if search.lower() in ingredient.lower():
+      found.append(ingredient)
+  return found
 
 
 def fuzzy_find_recipe(search):
@@ -34,9 +46,11 @@ def format_ingredients(ingredients):
     print(fish)
   print()
 
+  if len(still_needed) == 0:
+    return
   longest_fish_name = max([len(fish) for fish in still_needed])
 
-  print("\nStill Needed:")
+  print("Still Needed:")
   for fish in still_needed:
     print(f"{fish:>{longest_fish_name}}: {str(ingredients[fish])}")
   print()
@@ -67,6 +81,7 @@ def calculate_cost(recipe):
 
         case _:
           print("Invalid fish cost for " + fish_name)
+
   return costs
 
 
