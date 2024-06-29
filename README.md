@@ -9,6 +9,7 @@
 <h4>Requirements: </h4>
 <ul>
   <li>Python 3.10+</li>
+  <li>Dave the Diver</li>
 </ul>
 
 **Usage**:
