@@ -39,4 +39,5 @@ optionally include a name to search for a recipe, leaving blank will return all 
   - name to search for recipe
 - `upgrade_recipe(name=None)`: Upgrade a recipe
   - name to search for recipe, if left blank will prompt for a recipe
+- `continuous_upgrade()`: Continue upgrading recipes, use Ctrl-D or Ctrl-C to stop
 - `reset()`: Reset the data file to the default values
