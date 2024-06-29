@@ -24,8 +24,8 @@ def format_ingredients(ingredients):
   still_needed = []
 
   for fish in ingredients:
-    if fish['amount'] == 0:
-      done.append(fish['fish_name'])
+    if ingredients[fish] == 0:
+      done.append(fish)
     else:
       still_needed.append(fish)
     
@@ -34,11 +34,11 @@ def format_ingredients(ingredients):
     print(fish)
   print()
 
-  longest_fish_name = max([len(fish['fish_name']) for fish in still_needed])
+  longest_fish_name = max([len(fish) for fish in still_needed])
 
   print("\nStill Needed:")
   for fish in still_needed:
-    print(f"{fish['fish_name']:>{longest_fish_name}}: {str(fish['amount'])}")
+    print(f"{fish:>{longest_fish_name}}: {str(ingredients[fish])}")
   print()
 
 def calculate_cost(recipe):
