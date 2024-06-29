@@ -1,4 +1,4 @@
-from data import data, save_data, ingredients
+from data_module.data import data, save_data, ingredients
 from util import *
 from collections import Counter
 

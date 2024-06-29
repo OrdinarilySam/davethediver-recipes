@@ -1,4 +1,4 @@
-from data import data, maxed_list, save_data
+from data_module.data import data, maxed_list, save_data
 
 
 # added extra 0 at start for easier indexing in calculate amounts
