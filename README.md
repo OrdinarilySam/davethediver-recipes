@@ -1,14 +1,15 @@
 <h1 align="center">Dave the Diver Recipes</h1>
-<p align="center">
+<div align="center">
 <img src = "https://github.com/OrdinarilySam/davethediver-recipes/assets/100721569/b5446e95-39b1-46b8-9640-3c1e19f02df9"
   width=150
   height=150>
-</p>
-<h3 align="center"> Use this repo to figure out how many fish you need to max out your recipes in Dave the Diver. </h3>
+</div>
+<h3 align="center">An all in one CLI tool to figure out how many fish you need to max out your recipes in Dave the Diver.</h3>
 <hr>
 <h4>Requirements: </h4>
 <ul>
   <li>Python 3.10+</li>
+  <li>Dave the Diver</li>
 </ul>
 
 **Usage**:
