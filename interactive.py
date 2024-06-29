@@ -22,6 +22,18 @@ def get_recipe(name=None):
   for recipe in recipes:
     format_recipe(recipe)
 
+def get_recipe_from_ingredient(name=None):
+  if name is None:
+    name = input("Enter ingredient name: ")
+
+  ingredients = set(fuzzy_find_ingredients(name))
+
+  for recipe in data:
+    for fish in recipe['fish']:
+      if fish['fish_name'] in ingredients:
+        format_recipe(recipe)
+  
+
 
 def calculate_amounts(name=None, category=None):
   amounts = Counter()
