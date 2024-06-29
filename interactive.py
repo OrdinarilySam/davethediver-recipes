@@ -28,7 +28,7 @@ def calculate_amounts(name=None, category=None):
   search_list = []
 
   if name is None:
-    search_list = data
+    search_list = set([fish for category in ingredients for fish in ingredients[category]])
   else:
     search_list = fuzzy_find_ingredients(name)
     if len(search_list) == 0:
