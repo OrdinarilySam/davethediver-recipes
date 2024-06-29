@@ -1,4 +1,4 @@
-from data import data, save_data
+from data import data, save_data, ingredients
 from util import *
 from collections import Counter
 
@@ -23,7 +23,7 @@ def get_recipe(name=None):
     format_recipe(recipe)
 
 
-def calculate_amounts(name=None):
+def calculate_amounts(name=None, category=None):
   amounts = Counter()
   search_list = []
 
@@ -35,6 +35,12 @@ def calculate_amounts(name=None):
   for recipe in search_list:
     amounts += Counter(calculate_cost(recipe))
   
+  amounts = sorted(amounts.items(), key=lambda x: x[1], reverse=True)
+
+  if category is not None:
+    ings = [fish for cat, fish_list in ingredients.items() if category in cat for fish in fish_list]
+    amounts = [(fish, amount) for fish, amount in amounts if fish in ings]
+    
   format_ingredients(dict(amounts))
 
 
