@@ -1,4 +1,4 @@
-from data import data
+from data import data, maxed_list, save_data
 
 
 # added extra 0 at start for easier indexing in calculate amounts
@@ -49,7 +49,7 @@ def calculate_cost(recipe):
 
     costs[fish_name] = 0
 
-    for level in range(recipe['current_level'] + 1, len(level_cost) - 1):
+    for level in range(recipe['current_level'] + 1, recipe['max_level'] + 1):
       fish_cost = fish['amount']
 
       match fish_cost:
@@ -68,3 +68,9 @@ def calculate_cost(recipe):
         case _:
           print("Invalid fish cost for " + fish_name)
   return costs
+
+
+def add_max_level():
+  for recipe in data:
+    recipe['max_level'] = 10 if recipe['recipe_name'] not in maxed_list else 1
+  save_data()
