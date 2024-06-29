@@ -38,7 +38,7 @@ def calculate_amounts(name=None, category=None):
   amounts = sorted(amounts.items(), key=lambda x: x[1], reverse=True)
 
   if category is not None:
-    ings = [fish for cat, fish_list in ingredients.items() if category in cat for fish in fish_list]
+    ings = set([fish for cat, fish_list in ingredients.items() if category in cat for fish in fish_list])
     amounts = [(fish, amount) for fish, amount in amounts if fish in ings]
     
   format_ingredients(dict(amounts))
