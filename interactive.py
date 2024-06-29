@@ -89,6 +89,11 @@ def upgrade_recipe(name=None):
   print(f"Level for {recipe['recipe_name']} set to {level}")
 
 
+def continuous_upgrade():
+  while True:
+    upgrade_recipe()
+
+
 def calculate_recipe(name=None):
   search_list = []
 
