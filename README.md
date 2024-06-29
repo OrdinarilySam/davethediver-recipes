@@ -21,7 +21,7 @@ cd davethediver-recipes
 
 2. Create your own data file
 ```
-cp data.json.template data.json
+cp data_module/data.json.template json/data.json
 ```
 
 3. Run the python file in interactive mode (CLI coming soon)
