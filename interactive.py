@@ -12,7 +12,7 @@ def reset():
 
 
 def get_recipe(name=None):
-  if name is None:
+  if not name:
     name = input("Enter recipe name: ")
 
   recipes = fuzzy_find_recipe(name)
@@ -23,7 +23,7 @@ def get_recipe(name=None):
     format_recipe(recipe)
 
 def get_recipe_from_ingredient(name=None):
-  if name is None:
+  if not name:
     name = input("Enter ingredient name: ")
 
   ingredients = set(fuzzy_find_ingredients(name))
@@ -33,13 +33,11 @@ def get_recipe_from_ingredient(name=None):
       if fish['fish_name'] in ingredients:
         format_recipe(recipe)
   
-
-
 def calculate_amounts(name=None, category=None):
   amounts = Counter()
   search_list = []
 
-  if name is None:
+  if not name:
     search_list = set([fish for category in ingredients for fish in ingredients[category]])
   else:
     search_list = fuzzy_find_ingredients(name)
@@ -56,7 +54,7 @@ def calculate_amounts(name=None, category=None):
   amounts = sorted(amounts.items(), key=lambda x: x[1], reverse=True)
     
 
-  if category is not None:
+  if category:
     ings = set([fish for cat, fish_list in ingredients.items() if category in cat for fish in fish_list])
     amounts = [(fish, amount) for fish, amount in amounts if fish in ings]
     
@@ -64,7 +62,7 @@ def calculate_amounts(name=None, category=None):
 
 
 def upgrade_recipe(name=None):
-  if name is None:
+  if not name:
     name = input("Enter recipe name: ").strip()
 
   recipes = fuzzy_find_recipe(name)
@@ -127,7 +125,7 @@ def continuous_upgrade():
 def calculate_recipe(name=None):
   search_list = []
 
-  if name is None:
+  if not name:
     search_list = data
   else:
     search_list = fuzzy_find_recipe(name)
