@@ -67,7 +67,7 @@ def upgrade_recipe(name=None):
 
   recipes = fuzzy_find_recipe(name)
 
-  if not len(recipes):
+  if len(recipes) == 0:
     print("No recipes found")
     return
 
