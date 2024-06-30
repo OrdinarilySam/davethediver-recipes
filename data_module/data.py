@@ -1,4 +1,6 @@
 import json
+from rich import print
+
 data = []
 maxed_list = set()
 ingredients = {}
@@ -7,7 +9,7 @@ try:
   with open('json/data.json') as file:
     data = json.load(file)
 except FileNotFoundError:
-  print("No data file found. Please run:")
+  print("[bold red]No data file found. Please run:")
   print("cp data_module/data.json.template json/data.json")
 
 with open('json/maxed_fish.json') as file:
