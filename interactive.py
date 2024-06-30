@@ -67,11 +67,11 @@ def upgrade_recipe(name=None):
 
   recipes = fuzzy_find_recipe(name)
 
-  if len(recipes) == 0:
+  if not len(recipes):
     print("No recipes found")
     return
 
-  if len(recipes):
+  if len(recipes) > 1:
     for index, recipe in enumerate(recipes):
       print(index + 1, end=": ")
       print(recipe['recipe_name'])
