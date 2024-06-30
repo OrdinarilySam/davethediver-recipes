@@ -9,6 +9,7 @@
 <h4>Requirements: </h4>
 <ul>
   <li>Python 3.10+</li>
+  <li>Rich</li>
   <li>Dave the Diver</li>
 </ul>
 
@@ -24,7 +25,14 @@ cd davethediver-recipes
 cp data_module/data.json.template json/data.json
 ```
 
-3. Run the python file in interactive mode (CLI coming soon)
+3. Create a venv and install requirements
+```
+python3 -m venv <name>
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+4. Run the python file in interactive mode (CLI coming soon)
 ```
 python3 -i interactive.py
 ```
