@@ -41,7 +41,7 @@ def calculate_amounts(name=None, category=None):
     search_list = set([fish for category in ingredients for fish in ingredients[category]])
   else:
     search_list = fuzzy_find_ingredients(name)
-    if len(search_list) == 0:
+    if not len(search_list):
       print("No ingredients found")
       return
 
@@ -67,11 +67,11 @@ def upgrade_recipe(name=None):
 
   recipes = fuzzy_find_recipe(name)
 
-  if len(recipes) == 0:
+  if not len(recipes):
     print("No recipes found")
     return
 
-  if len(recipes) > 1:
+  if len(recipes):
     for index, recipe in enumerate(recipes):
       print(index + 1, end=": ")
       print(recipe['recipe_name'])
@@ -96,7 +96,7 @@ def upgrade_recipe(name=None):
     try:
       print(f"\nRecipe: {recipe['recipe_name']} (Level: {recipe['current_level']})")
       inp = input("Enter new level (blank for +1): ")
-      if inp == '':
+      if not inp:
         level = recipe['current_level'] + 1
         break
       else:

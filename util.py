@@ -36,7 +36,7 @@ def format_ingredients(ingredients):
   still_needed = []
 
   for fish in ingredients:
-    if ingredients[fish] == 0:
+    if not ingredients[fish]:
       done.append(fish)
     else:
       still_needed.append(fish)
@@ -46,7 +46,7 @@ def format_ingredients(ingredients):
     print(fish)
   print()
 
-  if len(still_needed) == 0:
+  if not len(still_needed):
     return
   longest_fish_name = max([len(fish) for fish in still_needed])
 
