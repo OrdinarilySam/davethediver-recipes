@@ -28,7 +28,7 @@ cp data_module/data.json.template json/data.json
 3. Create a venv and install requirements
 ```
 python3 -m venv <name>
-source venv/bin/activate
+source <name>/bin/activate
 pip install -r requirements.txt
 ```
 
