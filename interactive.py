@@ -33,7 +33,7 @@ def get_recipe_from_ingredient(name=None):
       if fish['fish_name'] in ingredients:
         format_recipe(recipe)
   
-def calculate_amounts(name=None, category=None):
+def calculate_amounts(name=None, category=None, filters=None):
   amounts = Counter()
   search_list = []
   filtered = False
@@ -50,6 +50,14 @@ def calculate_amounts(name=None, category=None):
   for recipe in data:
     if filtered and recipe['recipe_name'] in maxed_list:
       continue
+    if filters:
+      match filters:
+        case "sushi":
+          if len(recipe['fish']) != 1:
+            continue
+        case "recipe":
+          if len(recipe['fish']) < 2:
+            continue
     return_val = Counter(calculate_cost(recipe))
     all_keys = set(amounts.keys()).union(set(return_val.keys()))
 
