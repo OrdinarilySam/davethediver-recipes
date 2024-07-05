@@ -4,11 +4,12 @@ from collections import Counter
 
 
 def reset():
-  if input("Are you sure you want to reset all levels to 1? (y/n) ") != 'y':
+  if input("Are you sure you want to reset all levels to 1? (y/N) ") != 'y':
     return
   for recipe in data:
      recipe['current_level'] = 1
   print("Levels reset to 1")
+  save_data()
 
 
 def get_recipe(name=None):
@@ -33,7 +34,7 @@ def get_recipe_from_ingredient(name=None):
       if fish['fish_name'] in ingredients:
         format_recipe(recipe)
   
-def calculate_amounts(name=None, category=None, filters=None):
+def calculate_amounts(name=None, category=None, filter=None):
   amounts = Counter()
   search_list = []
   filtered = False
@@ -50,8 +51,8 @@ def calculate_amounts(name=None, category=None, filters=None):
   for recipe in data:
     if filtered and recipe['recipe_name'] in maxed_list:
       continue
-    if filters:
-      match filters:
+    if filter:
+      match filter.lower():
         case "sushi":
           if len(recipe['fish']) != 1:
             continue
@@ -67,7 +68,7 @@ def calculate_amounts(name=None, category=None, filters=None):
     
 
   if category:
-    ings = set([fish for cat, fish_list in ingredients.items() if category in cat for fish in fish_list])
+    ings = set([fish for cat, fish_list in ingredients.items() if category.lower() in cat.lower() for fish in fish_list])
     amounts = [(fish, amount) for fish, amount in amounts if fish in ings]
     
   format_ingredients(dict(amounts))
