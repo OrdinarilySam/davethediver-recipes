@@ -35,6 +35,22 @@ def find_backups():
   return backups
 
 def restore_backup(backup):
+  print("Which backup would you like to restore?")
+  backups = find_backups()
+  for index, backup in enumerate(backups):
+    print(index + 1, end=": ")
+    print(backup)
+
+  index = input("Enter choice: ").strip()
+  
+  try:
+    backup = backups[int(index) - 1]
+  except (ValueError, IndexError):
+    print("Invalid choice")
+    return
+
   with open(f"json/backups/{backup}") as file:
+    global data
     data = json.load(file)
   save_data()
+  print("Backup restored from " + backup)
