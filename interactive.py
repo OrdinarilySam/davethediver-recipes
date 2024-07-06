@@ -1,4 +1,4 @@
-from data_module.data import data, save_data, ingredients, maxed_list
+from data_module.data import data, save_data, ingredients, maxed_list, create_backup
 from util import *
 from collections import Counter
 
@@ -6,123 +6,114 @@ from collections import Counter
 def reset():
   if input("Are you sure you want to reset all levels to 1? (y/N) ") != 'y':
     return
+  if input("Would you like to make a backup first? (Y/n) ") != 'n':
+    create_backup()
   for recipe in data:
      recipe['current_level'] = 1
   print("Levels reset to 1")
   save_data()
 
 
-def get_recipe(name=None):
-  if not name:
-    name = input("Enter recipe name: ")
-
+def get_recipe():
+  name = input("Enter recipe name: ")
   recipes = fuzzy_find_recipe(name)
 
-  print("Recipes Found:")
+  if not recipes:
+    print("No recipes found")
+    return
 
+  print("Recipes Found:")
   for recipe in recipes:
     format_recipe(recipe)
 
-def get_recipe_from_ingredient(name=None):
-  if not name:
-    name = input("Enter ingredient name: ")
+def get_recipe_from_ingredient():
+  name = input("Enter ingredient name: ").strip()
 
   ingredients = set(fuzzy_find_ingredients(name))
+
+  if not ingredients:
+    print("No ingredients found")
+    return
 
   for recipe in data:
     for fish in recipe['fish']:
       if fish['fish_name'] in ingredients:
         format_recipe(recipe)
   
-def calculate_amounts(name=None, category=None, filter=None):
+
+def calculate_amounts(filters={}):
   amounts = Counter()
   search_list = []
-  filtered = False
+  filter_boss_items = False
 
-  if not name:
+  if not filters.get("ingredient"):
     search_list = set([fish for category in ingredients for fish in ingredients[category]])
-    filtered = True
+    filter_boss_items = True
+
   else:
-    search_list = fuzzy_find_ingredients(name)
+    search_list = filters.get("ingredient") 
     if not len(search_list):
       print("No ingredients found")
       return
 
   for recipe in data:
-    if filtered and recipe['recipe_name'] in maxed_list:
+    if filter_boss_items and recipe['recipe_name'] in maxed_list:
       continue
-    if filter:
-      match filter.lower():
-        case "sushi":
-          if len(recipe['fish']) != 1:
-            continue
-        case "recipe":
-          if len(recipe['fish']) < 2:
-            continue
+
+    if filters.get("num_ingredients", len(recipe['fish'])) != len(recipe['fish']):
+      continue
+
     return_val = Counter(calculate_cost(recipe))
     all_keys = set(amounts.keys()).union(set(return_val.keys()))
 
     amounts = Counter({key: return_val[key] + amounts[key] for key in all_keys if key in search_list})
 
   amounts = sorted(amounts.items(), key=lambda x: x[1], reverse=True)
-    
 
-  if category:
+  if filters.get("category"):
+    category = filters.get("category")
     ings = set([fish for cat, fish_list in ingredients.items() if category.lower() in cat.lower() for fish in fish_list])
     amounts = [(fish, amount) for fish, amount in amounts if fish in ings]
     
   format_ingredients(dict(amounts))
 
 
-def upgrade_recipe(name=None):
-  if not name:
-    name = input("Enter recipe name: ").strip()
+def upgrade_recipe():
+  name = input("Enter recipe name: ").strip()
 
   recipes = fuzzy_find_recipe(name)
 
-  if not len(recipes):
+  text = "Which recipe would you like to upgrade?"
+  index = choice_picker(text, list(map(lambda x: x['recipe_name'], recipes)))
+
+  if index is None:
     print("No recipes found")
     return
 
-  if len(recipes) > 1:
-    for index, recipe in enumerate(recipes):
-      print(index + 1, end=": ")
-      print(recipe['recipe_name'])
-
-    print("Which recipe would you like to upgrade?")
-
-    while True:
-      try:
-        choice = int(input(f"Enter choice 1-{len(recipes)}: "))
-        if choice < 1 or choice > len(recipes):
-          raise ValueError
-        break
-
-      except ValueError:
-        print("Invalid choice")
-    
-    recipe = recipes[choice - 1]
-  else:
-    recipe = recipes[0]
+  recipe = recipes[index]
 
   while True:
     try:
       print(f"\nRecipe: {recipe['recipe_name']} (Level: {recipe['current_level']})")
       inp = input("Enter new level (blank for +1): ")
+
       if not inp:
         level = recipe['current_level'] + 1
-        break
+
       else:
         level = int(inp)
-        if level < 1 or level > 10:
-          raise ValueError
-        break
+      
+      if level < 1 or level > 10:
+        raise ValueError
+
+      break
 
     except ValueError:
       print("Invalid level")
   
   recipe['current_level'] = level
   save_data()
+
   print(f"Level set to {level}")
 
 
@@ -135,13 +126,19 @@ def continuous_upgrade():
     print("\nExiting")
 
 
-def calculate_recipe(name=None):
+def calculate_recipe():
   search_list = []
+  name = input("Enter recipe name (blank for all): ").strip()
 
   if not name:
     search_list = data
+
   else:
     search_list = fuzzy_find_recipe(name)
+  
+  if not search_list:
+    print("No recipes found")
+    return
   
   print("Cost per Recipe:\n")
   for recipe in search_list:
