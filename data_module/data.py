@@ -1,6 +1,6 @@
 import json
-from rich import print
-import datetime
+from rich import print as rprint
+from datetime import datetime
 import os
 
 data = []
@@ -11,7 +11,7 @@ try:
   with open('json/data.json') as file:
     data = json.load(file)
 except FileNotFoundError:
-  print("[bold red]No data file found. Please run:")
+  rprint("[bold red]No data file found. Please run:")
   print("cp data_module/data.json.template json/data.json")
 
 with open('json/maxed_fish.json') as file:
@@ -25,8 +25,12 @@ def save_data():
     json.dump(data, file, indent=2)
 
 def create_backup():
-  with open(f"json/backups/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json", 'w') as file:
+  if not os.path.exists('json/backups'):
+    os.makedirs('json/backups')
+  with open(f"json/backups/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json", 'w') as file:
     json.dump(data, file, indent=2)
+
+  print("Created backup: " + file.name)
 
 def find_backups():
   backups = []
@@ -34,20 +38,26 @@ def find_backups():
     backups.append(file)
   return backups
 
-def restore_backup(backup):
-  print("Which backup would you like to restore?")
+def restore_backup():
   backups = find_backups()
-  for index, backup in enumerate(backups):
-    print(index + 1, end=": ")
-    print(backup)
+  print("Which backup would you like to load? q to cancel")
 
-  index = input("Enter choice: ").strip()
-  
-  try:
-    backup = backups[int(index) - 1]
-  except (ValueError, IndexError):
-    print("Invalid choice")
-    return
+  for index, backup in enumerate(backups):
+    print(f"{index + 1}: {backup}")
+
+  while True:
+    try:
+      inp = input("Enter choice: ").strip()
+      if inp == 'q':
+        print("Cancelled")
+        return
+
+      index = int(inp) - 1
+      backup = backups[index]
+      break
+    except (ValueError, IndexError):
+      print("Invalid choice")
+      continue
 
   with open(f"json/backups/{backup}") as file:
     global data
