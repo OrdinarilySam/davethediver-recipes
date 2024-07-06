@@ -89,3 +89,30 @@ def add_max_level():
   for recipe in data:
     recipe['max_level'] = 10 if recipe['recipe_name'] not in maxed_list else 1
   save_data()
+
+
+def choice_picker(text, options):
+  if not len(options):
+    return None
+  
+  if len(options) > 1:
+    for index, option in enumerate(options):
+      print(index + 1, end=": ")
+      print(option)
+    
+    print(text)
+
+    while True:
+      try:
+        choice = int(input(f'Enter choice 1-{len(options)}: ').strip())
+        if choice < 1 or choice > len(options):
+          raise ValueError
+        break
+
+      except ValueError:
+        print("Invalid choice")
+
+    return choice - 1
+
+  else:
+    return 0
