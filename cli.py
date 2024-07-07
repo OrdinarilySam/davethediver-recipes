@@ -124,7 +124,7 @@ if __name__ == "__main__":
           argument = int(input("Enter number: "))
 
         case "select":
-          nested_option = u.choice_picker(option['options'])
+          nested_option = u.choice_picker("Which option?", option['options'])
           print()
           argument = option['options'][nested_option]
         
