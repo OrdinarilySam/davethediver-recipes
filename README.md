@@ -56,6 +56,7 @@ The problem is there's no help or guidance, so you'll have to know what function
 
 Here are the options. When a name isn't available, you will be prompted.
 
+<hr>
 
 **Available Functions**:
 optionally include a name to search for, leaving blank will return all
