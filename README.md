@@ -13,40 +13,99 @@
   <li>Dave the Diver</li>
 </ul>
 
-**Usage**:
+**Installation and Setup**:
 1. Clone the repo
-```
+```sh
 git clone https://github.com/OrdinarilySam/davethediver-recipes.git
 cd davethediver-recipes
 ```
 
 2. Create your own data file
-```
+```sh
 cp data_module/data.json.template json/data.json
 ```
 
 3. Create a venv and install requirements
-```
+```sh
 python3 -m venv <name>
 source <name>/bin/activate
 pip install -r requirements.txt
 ```
-
-4. Run the python file in interactive mode (CLI coming soon)
-```
-python3 -i interactive.py
-```
 <hr>
 
+**Usage**:
+Alright, you've got it set up, now what?
+
+There are two paths to go down here, but the CLI tool is just better.
+
+1. **CLI Tool**:
+```sh
+python cli.py
+```
+
+You're going to be presented with options, and you can choose what you want from there. 
+Everything in the CLI is pretty self-explanatory.
+
+2. **Interactive Shell**:
+```sh
+python -i interactive.py
+```
+
+This is a bit more freeform. You can call functions directly and create your own local variables to play with.
+The problem is there's no help or guidance, so you'll have to know what functions you're calling.
+
+Here are the options. When a name isn't available, you will be prompted.
+
+
 **Available Functions**:
-optionally include a name to search for a recipe, leaving blank will return all recipes
-- `calculate_amounts(name=None)`: Calculate the amount of fish to max out all recipes
-  - name to search for fish
-- `calculate_recipe(name=None)`: Calculate the amount of fish to max out a specific recipe
-  - name to search for recipe
-- `get_recipe(name=None)`: Get the recipe for a specific item
-  - name to search for recipe
-- `upgrade_recipe(name=None)`: Upgrade a recipe
-  - name to search for recipe, if left blank will prompt for a recipe
-- `continuous_upgrade()`: Continue upgrading recipes, use Ctrl-D or Ctrl-C to stop
-- `reset()`: Reset the data file to the default values
+optionally include a name to search for, leaving blank will return all
+```python
+calculate_amounts(filters={})
+```
+1. Use this function to calculate the amount of fish needed to max out recipes.
+  - this takes in a dictionary of filters
+  - when left blank, this will display all ingredients
+  - filters can have keys for 'ingredient', 'category', 'num_ingredients' 
+    - ingredient: takes in a list of ingredients to filter by
+    - category: takes in a string of the category. Options: 'seafood', 'plants', 'seasoning'
+    - num_ingredients: takes in an integer to filter by the number of distinct ingredients in the recipe
+
+```python
+calculate_recipe()
+```
+2. Use this function to search for a specific recipe and calculate the amount of fish need to max just that recipe.
+
+```python
+get_recipe()
+```
+3. Use this function to search for a specific recipe and print it.
+
+```python
+get_recipe_from_ingredient()
+```
+4. Use this function to search for a specific ingredient and print all recipes that use it. 
+
+```python
+upgrade_recipe()
+``` 
+5. Use this function to upgrade a single recipe. (Also set specific level)
+
+```python
+continuous_upgrade()
+```
+6. Use this function to continuously upgrade recipes. Use Ctrl-D or Ctrl-C to stop.
+
+```python
+reset()
+```
+7. Use this function to reset the data file to the default values.
+
+
+**Utility Functions**:
+```python
+fuzzy_find_ingredients(search=str)
+fuzzy_find_recipes(search=str)
+create_backup()
+restore_backup()
+save_data() # use this if modifying the data list directly
+``` 
