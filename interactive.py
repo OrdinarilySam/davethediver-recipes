@@ -66,13 +66,18 @@ def calculate_amounts(filters={}):
     return_val = Counter(calculate_cost(recipe))
     all_keys = set(amounts.keys()).union(set(return_val.keys()))
 
-    amounts = Counter({key: return_val[key] + amounts[key] for key in all_keys if key in search_list})
+    amounts = Counter(
+      {key: return_val[key] + amounts[key] for key in all_keys if key in search_list}
+    )
 
   amounts = sorted(amounts.items(), key=lambda x: x[1], reverse=True)
 
   if filters.get("category"):
     category = filters.get("category")
-    ings = set([fish for cat, fish_list in ingredients.items() if category.lower() in cat.lower() for fish in fish_list])
+    ings = set(
+      [fish for cat, fish_list in ingredients.items() 
+       if category.lower() in cat.lower() for fish in fish_list]
+    )
     amounts = [(fish, amount) for fish, amount in amounts if fish in ings]
     
   format_ingredients(dict(amounts))
